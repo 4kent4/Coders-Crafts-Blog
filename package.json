@@ -1,0 +1,18 @@
+{
+  "name": "coders-crafts-blog",
+  "version": "1.0.0",
+  "description": "blog web application",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Kent Fortich",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
+}
